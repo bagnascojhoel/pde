@@ -108,8 +108,8 @@ bindsym $mod+a focus parent
 set $wsbash "1: bash"
 set $wsprofessional "2: professional"
 set $wsnotes "3: notes"
-set $wspersonal "4: personal"
-set $ws5 "5"
+set $wslistening "4: personal"
+set $wspersonal "5"
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
@@ -120,8 +120,8 @@ set $wsbash0 "10"
 bindsym $mod+1 workspace number $wsbash
 bindsym $mod+2 workspace number $wsprofessional
 bindsym $mod+3 workspace number $wsnotes
-bindsym $mod+4 workspace number $wspersonal
-bindsym $mod+5 workspace number $ws5
+bindsym $mod+4 workspace number $wslistening
+bindsym $mod+5 workspace number $wspersonal
 bindsym $mod+6 workspace number $ws6
 bindsym $mod+7 workspace number $ws7
 bindsym $mod+8 workspace number $ws8
@@ -132,8 +132,8 @@ bindsym $mod+0 workspace number $wsbash0
 bindsym $mod+Shift+1 move container to workspace number $wsbash
 bindsym $mod+Shift+2 move container to workspace number $wsprofessional
 bindsym $mod+Shift+3 move container to workspace number $wsnotes
-bindsym $mod+Shift+4 move container to workspace number $wspersonal
-bindsym $mod+Shift+5 move container to workspace number $ws5
+bindsym $mod+Shift+4 move container to workspace number $wslistening
+bindsym $mod+Shift+5 move container to workspace number $wspersonal
 bindsym $mod+Shift+6 move container to workspace number $ws6
 bindsym $mod+Shift+7 move container to workspace number $ws7
 bindsym $mod+Shift+8 move container to workspace number $ws8
@@ -187,6 +187,7 @@ exec --no-startup-id i3-msg 'workspace $wsbash; exec terminator'
 exec --no-startup-id i3-msg 'workspace $wsprofessional; exec google-chrome --profile-directory=Default'
 exec --no-startup-id i3-msg 'workspace $wsnotes; exec obsidian'
 exec --no-startup-id i3-msg 'workspace $wsnotes; exec notion-snap'
+exec --no-startup-id i3-msg 'workspace $wslistening; exec spotify'
 
 ## Workspace assignments
 assign [class="X-terminal-emulator" instance="x-terminal-emulator"] $wsbash
