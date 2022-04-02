@@ -1,6 +1,6 @@
 # Personal Development Environment (PDE)
 
-While watching a Netflix's Software Engineer live stream, I came about the concept of PDE. It was mesmeraizing to think about the advantages this approach brings to daily life. The main concept is that you adapt the tools to your workflow, not yourself to the tools. This brought me to the road of using I3 and NVim. These tools are highly customizable and have a keyboard-focused workflow. In the long haul, they speed up and create an organic development experience.
+While watching a Netflix's Software Engineer live stream ([ThePrimeagen](https://www.youtube.com/c/ThePrimeagen)), I came about the concept of PDE. It was mesmeraizing to think about the advantages this approach brings to daily life. The main concept is that you adapt the tools to your workflow, not yourself to the tools. This brought me to the road of using I3 and NVim. These tools are highly customizable and have a keyboard-focused workflow. In the long haul, they speed up and create an organic development experience.
 
 I also intend to employ a solution to a question which I learned on a book (I could not remember which one _):_ if something made it impossible to code on your computer and you had to configure it from scrath, how much time would you take to setup your preffered state? 
 
